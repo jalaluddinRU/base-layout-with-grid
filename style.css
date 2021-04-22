@@ -1,5 +1,6 @@
 body{
     margin: auto 0;
+    font-family: Arial;
 }
 
 .zone {
@@ -73,6 +74,23 @@ a{
 footer{
     text-align: center;
 }
+.cover {
+    width: 30rem;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform:rotate(-7deg);
+    -o-transform:rotate(-7deg);
+    transform:rotate(-7deg);
+}
+
 
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
